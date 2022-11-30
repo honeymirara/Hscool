@@ -1,1 +1,1 @@
-# Hscool
+# Hschool
