@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header ul, header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  margin: 0 auto;
+  width: 1120px;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+header .logo {
+  width: 124px;
+  height: 38px;
+  background-image: url(./assets/Course\ topics\ \(1\).svg);
+  background-repeat: no-repeat;
+}
+header ul {
+  width: 505px;
+}
+header ul li {
+  list-style: none;
+  font: 700 16px "Mulish";
+}
+header .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 147px;
+  height: 50px;
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  border-radius: 33px;
+  font: 700 16px "Mulish";
+  color: #FFFFFF;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main .right-side-video {
+  width: 590px;
+  height: 360px;
+  background-image: url(./assets/Rectangle.svg);
+  background-repeat: no-repeat;
+  margin-left: 850px;
+}
