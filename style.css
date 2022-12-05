@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-style: normal;
+  font-family: "Mulish";
 }
 
 header ul, header {
@@ -14,7 +16,7 @@ header ul, header {
 
 body {
   margin: 0 auto;
-  width: 1120px;
+  width: 1140px;
 }
 
 header {
@@ -36,7 +38,7 @@ header ul li {
   list-style: none;
   font: 700 16px "Mulish";
 }
-header .btn {
+header .btn-sign-up {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,18 +56,63 @@ header .btn {
   color: #FFFFFF;
 }
 
-main {
+.first-section {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
-main .right-side-video {
+.first-section .right-side-video {
   width: 590px;
   height: 360px;
   background-image: url(./assets/Rectangle.svg);
   background-repeat: no-repeat;
-  margin-left: 850px;
+  background-size: contain;
+}
+
+.second-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.second-section .oval-img {
+  width: 288px;
+  height: 288px;
+  background-image: url(./assets/Side\ Shape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 2;
+  left: -20px;
+  top: 20px;
+}
+.second-section .statistic {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
+  height: 172px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.second-section .statistic div {
+  text-align: center;
+  width: 370px;
+}
+.second-section .statistic div:not(:last-child) {
+  border-right: 1px solid #E7EAEB;
 }
