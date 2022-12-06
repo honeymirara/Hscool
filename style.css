@@ -194,17 +194,13 @@ header .btn-sign-up {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+  background: linear-gradient(44.11deg, #99C6F2 15.75%, #3D75BF 84.63%);
+  mix-blend-mode: normal;
+  border-radius: 21px;
 }
 .third-section .image-rectangle {
   width: 64px;
   height: 64px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
   background-image: url(./assets/Group\ 8.svg);
   background-repeat: no-repeat;
 }
