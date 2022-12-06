@@ -19,6 +19,18 @@ body {
   width: 1140px;
 }
 
+.start-career {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 68px;
+}
+
+.text-big {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 header {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -67,9 +79,27 @@ header .btn-sign-up {
 .first-section .right-side-video {
   width: 590px;
   height: 360px;
-  background-image: url(./assets/Rectangle.svg);
+  background-image: url(./assets/Group\ 7.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+.first-section .big-btn-sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 206px;
+  height: 70px;
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  border-radius: 33px;
+  font: 700 16px "Mulish";
+  color: #FFFFFF;
+  margin-top: 70px;
 }
 
 .second-section {
@@ -115,4 +145,72 @@ header .btn-sign-up {
 }
 .second-section .statistic div:not(:last-child) {
   border-right: 1px solid #E7EAEB;
+}
+
+.third-section {
+  margin: 0 auto;
+  width: 1120px;
+  height: 969px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Montserrat";
+  margin-top: 250px;
+}
+.third-section .our-advantages {
+  width: 637px;
+  height: 69px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  margin: 0 auto;
+}
+.third-section .full-support {
+  margin: 0 auto;
+  font-family: "Mulish";
+  width: 560px;
+  height: 60px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F596A;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.third-section .block-one,
+.third-section .block-two,
+.third-section .block-three,
+.third-section .block-four {
+  width: 1120px;
+  height: 172px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+.third-section .image-rectangle {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-image: url(./assets/Group\ 8.svg);
+  background-repeat: no-repeat;
+}
+.third-section h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
 }
