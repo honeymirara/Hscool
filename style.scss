@@ -187,10 +187,13 @@ header {
         width: 1120px;
         height: 172px;
         display: flex;
-        justify-content: left;
+        
         background: linear-gradient(44.11deg, #99C6F2 15.75%, #3D75BF 84.63%);
         mix-blend-mode: normal;
         border-radius: 21px;
+        margin-bottom: 30px;
+        text-align: center;
+        align-items: center;
 
 
 
@@ -206,6 +209,8 @@ header {
         height: 64px;
         background-image: url(./assets/Group\ 8.svg);
         background-repeat: no-repeat;
+        position: relative;
+        padding-left: 45px;
 
     }
 
