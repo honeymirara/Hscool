@@ -20,6 +20,7 @@ body {
     font-weight: 700;
     font-size: 60px;
     line-height: 68px;
+    margin-top: 30px;
 }
 
 .text-big {
@@ -73,11 +74,12 @@ header {
     display: flex;
 
     .right-side-video {
-        width: 590px;
-        height: 360px;
+        width: 600px;
+        height: 380px;
         background-image: url(./assets/Group\ 7.svg);
         background-repeat: no-repeat;
         background-size: contain;
+        
     }
 
     .big-btn-sign-up {
@@ -158,6 +160,7 @@ header {
         font-size: 46px;
         margin: 0 auto;
 
+
     }
 
     .full-support {
@@ -172,6 +175,7 @@ header {
         font-weight: 400;
         font-size: 20px;
         margin-left: 200px;
+        margin-bottom: 61px;
 
 
 
@@ -187,8 +191,8 @@ header {
         width: 1120px;
         height: 172px;
         display: flex;
-        
-        background: linear-gradient(44.11deg, #99C6F2 15.75%, #3D75BF 84.63%);
+
+        background: linear-gradient(44.11deg, #73a9de 15.75%, #dbebff 84.63%);
         mix-blend-mode: normal;
         border-radius: 21px;
         margin-bottom: 30px;
@@ -197,12 +201,7 @@ header {
 
 
 
-
-
-
     }
-
-
 
     .image-rectangle {
         width: 64px;
@@ -210,7 +209,7 @@ header {
         background-image: url(./assets/Group\ 8.svg);
         background-repeat: no-repeat;
         position: relative;
-        padding-left: 45px;
+        margin-left: 45px;
 
     }
 
@@ -219,9 +218,29 @@ header {
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
+        width: 451px;
+        height: 24px;
+        margin-bottom: 20px;
     }
 
+    p {
+        height: 48px;
+        width: 960px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
 
+    }
+
+    h1,
+    p {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 32px;
+
+    }
 
 
 }
